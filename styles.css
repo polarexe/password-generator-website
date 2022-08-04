@@ -1,0 +1,76 @@
+body {
+    background-color: gray;
+    margin: 0;
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: 0;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+.charamountcontainer{
+    display: flex;
+    align-items: center;
+}
+
+.numberinput{
+    width: 2rem;
+}
+
+.password-display{
+    background-color: black;
+    color: white;
+    padding: 0.65rem;
+    border: 1px solid gray;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    world-break: break-all;
+    border-radius: .5rem;
+}
+
+.button{
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.button:hover {
+    background-color: #FFFFFF33;
+}

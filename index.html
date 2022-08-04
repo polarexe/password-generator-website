@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <scriptsrc="script.js" defer></script>
-    <link rel=""stlyesheet href="styles.css"> 
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css"> 
     <title>haylo password generator</title>
 </head>
 <body>
-    
+    <p align="center">
+    <img src="leen.png" widht="120" height="120">
+</p>
+<div class="container">
+    <h1 class="title">Haylo Password Generator</h1>
+    <h2>a simple open sourced password generator</h2>
+    <h3 id="passwordDisplay" class="password-display">password</h3>
+    <form id="passwordGeneratorForm" class="form">
+        <label for="">Number of characters</label>
+        <div class="charamountcontainer">
+            <input type="range" min="1" max="50" value="10" id="characterAmountRange">
+            <input class="numberinput" type="number" value="10" id="characterAmountNumber">
+        </div>
+       
+        <label for="">Include Uppercase</label>
+        <input type="checkbox" id="includeUppercase">
+
+        <label for="">Include Numbers</label>
+        <input type="checkbox" id="includeNumbers">
+
+        <label for="">Include Symbols</label>
+        <input type="checkbox" id="includeSymbols">
+
+        <button type="submit" class="button">Generate!</button>
+    </form>
+</div>
 </body>
 </html>
