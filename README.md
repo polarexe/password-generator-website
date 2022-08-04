@@ -1,7 +1,6 @@
 # password-generator-website
 
 <p align="center">
-![haylogenerator-removebg-preview](https://user-images.githubusercontent.com/69397486/182919851-d315e25c-65e9-43ad-b544-812cfb27b5f5.png)
 </p>
 like the password generator i made before. but no need to download it. same bullshit, different format
 
