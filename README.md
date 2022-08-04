@@ -1,7 +1,7 @@
 # password-generator-website
 
 <p align="center">
-  <img src="images/logo.png">
+  <img src="images/logo2.png">
 </p>
 like the password generator i made before. but no need to download it. same bullshit, different format
 
